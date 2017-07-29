@@ -1,0 +1,76 @@
+<html>
+  <head>
+	   <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+	   <title>What is Testing?</title>
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/Main.css">
+	   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div id="main-cotaner" class="container">
+      <div  class="row">
+        <div class="col-md-8">
+          <h1 class="page-header text-uppercase">Software Testing</h1>
+            <p class="lead text-uppercase">It is a process of validation and vervication</p>
+            <div class="row">
+              <div class="col-md-6">
+                  <div  class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                      <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Software Validtaiton
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel">
+                    <div class="panel-body">
+                      <p class="text-uppercase text-capitalize">Make sure software meets Customer requirments (Functional and Non-Functional requirments).</p>
+                    </div>
+                    </div>
+                  </div>
+              </div>
+            <div class="col-md-6">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Software Vervication
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel">
+                  <div class="panel-body">
+                    <p class="text-capitalize">Make sure software meets all the design specifications.</p></div>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
+        <div id="side-list" class="col-md-4 list-group">
+          <a class="list-group-item" href="index.html">What is Testing</a>
+          <a class="list-group-item" href="./pages/WhyTesting.html">Why using it</a>
+          <a class="list-group-item" href="./pages/TestingTypes.html">Testing Types</a>
+        </div>
+      </div>
+    </div>
+    <script>
+    $(window).resize(function(){
+   var width = $(window).width();
+   //var hasClass = $('#main-nav').hasClass('navbar-fixed-top');
+   if(width <= 773){
+       //$('#main-nav').removeClass('navbar-fixed-top');
+       $('#main-nav').hide();
+   }
+   if (width > 773) {
+       //$('#main-nav').addClass('navbar-fixed-top');
+       $('#main-nav').show();
+   }
+})
+.resize();//trigger the resize event on page load.
+
+
+    </script>
+  </body>
+</html>
