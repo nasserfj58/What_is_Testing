@@ -1,0 +1,53 @@
+<html>
+  <head>
+	   <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+	   <title>Why Testing?</title>
+     <link rel="stylesheet" href="../css/bootstrap.min.css">
+     <link rel="stylesheet" href="../css/Main.css">
+	   <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+	   <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div id="main-cotaner" class="container">
+      <div  class="row">
+        <div class="col-md-8">
+          <h1 class="page-header text-uppercase"> Why Software Testing?</h1>
+          <div class="row">
+            <div width="90%" class="col-md-12">
+            <h2 class="text-uppercase">amazon price comparison Software bug</h2>
+            <p>It was quite a surprise for vendors to see their products on sale for just One cent in Amazon marketplace. It was a festive bonanza for shoppers and many picked up items as expensive as mobile phones for just 1 cent. This glitch was attributed to a bug in amazon price comparison software and resulted in $100,000 for the vendors.<a href="http://www.cigniti.com/blog/top-10-mega-software-failures-of-2014/">Amazon Failure</a></p>
+          </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+            <img  width="50%" class="img-response" src="http://www.gallop.net/blog/wp-content/uploads/2015/01/failure-1.png" alt="Amazon brand">
+          </div>
+        </div>
+        </div>
+        <div id="side-list" class="col-md-4 list-group">
+          <a class="list-group-item" href="../index.html">What is Testing</a>
+          <a class="list-group-item" href="./WhyTesting.html">Why using it</a>
+          <a class="list-group-item" href="./TestingTypes.html">Testing Types</a>
+        </div>
+      </div>
+      </div>
+    <script>
+    $(window).resize(function(){
+   var width = $(window).width();
+   //var hasClass = $('#main-nav').hasClass('navbar-fixed-top');
+   if(width <= 773){
+       //$('#main-nav').removeClass('navbar-fixed-top');
+       $('#main-nav').hide();
+   }
+   if (width > 773) {
+       //$('#main-nav').addClass('navbar-fixed-top');
+       $('#main-nav').show();
+   }
+})
+.resize();//trigger the resize event on page load.
+
+
+    </script>
+  </body>
+</html>
